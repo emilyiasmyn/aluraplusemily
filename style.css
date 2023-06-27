@@ -1,8 +1,44 @@
-..root{
-    --branco-principal:#FFFFFF;
-    --cinza-secundario:#C0C0C0;
-    --botao-azul:#4c98e4;
-    --cor-de-fundo:#00030c;
-    --font-principal:'inter';
-    --botao-auzul-efeito:
+:root {
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --COR-DWE-FUNDO: #00030C;
+    --fonte-principal: 'inter';
+    --botao-azul-efeito: #3c92fa;
+}
+
+body {
+    background-color: var(--cor-de-fundo) 
+    color: var(--branco-principal) 
+    font-family: var(--fonte-principal)
+    font-size: 16px 
+    font-weigth: 400
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    padding: 1em;
+    color: var(--branco-principal) display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
 }
