@@ -12,7 +12,7 @@ body {
  color: var(--branco-principal);
     font-family: var(--fonte-principal);
      font-size: 16px;
-      font-weigth: 400;
+      font-weight: 400;
 }
 
 * {
@@ -136,7 +136,7 @@ body {
 }
 
 .rodape__texto {
-    max-resolution: 1em 0;
+    margin: 1em 0;
     color: var(--cinza-secundario);
     font-size: 14px;
 }
